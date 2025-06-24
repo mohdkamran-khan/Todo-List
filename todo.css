@@ -1,0 +1,61 @@
+#heading{
+    text-align: center;
+}
+.count{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.gridContainer {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns:20px 200px 150px 100px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}   
+.inputContainer {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 250px 150px 100px;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}  
+#todoInput {
+    padding: 14px;
+    font-size: 13px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#todoDate{
+    padding: 13px;
+    font-size: 13px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#addButton {
+    padding: 13px;
+    font-size: 15px;
+    background-color: #11d418;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    &:hover {
+        font-size: 105%;
+    }
+}
+.deleteButton{
+    padding: 13px;
+    font-size: 15px;
+    background-color: #ef372a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    &:hover {
+        font-size: 105%;
+    }
+}

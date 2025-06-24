@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    
+<h1 id="heading">To-Do List</h1>
+<div class="count">All Tasks: 0 | Completed Tasks: 0 | Pending Tasks: 0</div>
+
+<div class="inputContainer">
+<input type="text" id="todoInput" placeholder="Add a new task...">
+<input type="date" id="todoDate" placeholder="yyyy-mm-dd">
+<button id="addButton" onclick="addTodo();">Add</button>
+</div>
+
+<div class="todoContainer gridContainer"></div>
+
+<script src="todo.js"></script>
+</body>
+</html>
