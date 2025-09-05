@@ -1,12 +1,12 @@
-Todo-List Web App
+**Todo-List Web App**
 
 A simple, intuitive To-Do List web application built with HTML, CSS, and JavaScript. Easily manage tasks with a clean UI and persistent storage.
 
-Demo
+## Demo
 
 <img width="3058" height="2206" alt="127 0 0 1_5500_Todo-List_todo html" src="https://github.com/user-attachments/assets/5569b53c-3042-40f8-8e46-d1c98105ed15" />
 
-Features
+## Features
 
 Add, check off, and remove tasks
 
@@ -16,7 +16,7 @@ Responsive design that works across devices
 
 Clean, intuitive user interface with minimal distractions
 
-Getting Started
+## Getting Started
 
 To run the app locally:
 
@@ -28,7 +28,7 @@ cd Todo-List
 # Option 1: Double-click `index.html`
 # Option 2: Serve with a local server (e.g., `npx http-server`, or Live Server in VS Code)
 
-Usage
+## Usage
 
 Type your task into the input field and select a date.
 
@@ -40,12 +40,12 @@ Click the trash icon to delete tasks.
 
 Tasks persist between sessions thanks to localStorage.
 
-Built With
+## Built With
 
 HTML, CSS, JavaScript — core technologies for web development
 
 localStorage API — for client-side data persistence
 
-Credits
+## Liscense
 
-Built by Mohd Kamran Khan — MERN Full Stack Developer
+This project is free to use
